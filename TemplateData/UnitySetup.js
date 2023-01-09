@@ -28,9 +28,9 @@ function unityShowBanner(msg, type) {
 var buildUrl = "Build";
 var loaderUrl = buildUrl + "/Test.loader.js";
 var config = {
-    dataUrl: buildUrl + "/Test.data.gz",
-    frameworkUrl: buildUrl + "/Test.framework.js.gz",
-    codeUrl: buildUrl + "/Test.wasm.gz",
+    dataUrl: buildUrl + "/Test.data",
+    frameworkUrl: buildUrl + "/Test.framework.js",
+    codeUrl: buildUrl + "/Test.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "UnityExample_WebGL",
